@@ -1,0 +1,8 @@
+# secrets
+*.pickle
+*.json
+
+# python junk
+__pycache__/
+*.pyc
+.env

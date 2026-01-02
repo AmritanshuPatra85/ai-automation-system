@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Automation System</title>
+</head>
+<body>
+
+    <h2>Automation Tool</h2>
+
+    <!-- Organize files by type -->
+    <h3>Organize Folder by File Type</h3>
+    <form action="/organize" method="post">
+        <label>Folder Path:</label><br>
+        <input type="text" name="folder_path" placeholder="C:\Users\KIIT\Downloads" required>
+        <br><br>
+        <button type="submit">Organize</button>
+    </form>
+
+    <hr>
+
+    <!-- Bulk rename files -->
+    <h3>Bulk Rename Files (Add Prefix)</h3>
+    <form action="/rename" method="post">
+        <label>Folder Path:</label><br>
+        <input type="text" name="folder_path" placeholder="C:\Users\KIIT\Documents" required>
+        <br><br>
+
+        <label>Prefix:</label><br>
+        <input type="text" name="prefix" placeholder="college_" required>
+        <br><br>
+
+        <button type="submit">Rename</button>
+    </form>
+
+</body>
+</html>
+
