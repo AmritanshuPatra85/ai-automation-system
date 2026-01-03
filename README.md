@@ -28,18 +28,6 @@ The main focus of this project is **backend architecture**, **Python automation*
 
 ---
 
-## 📁 Project Structure
-AiAutomation/
-├── app.py # Flask application (controller)
-├── automations.py # Automation functions
-├── templates/
-│ └── index.html # HTML interface
-├── static/
-│ └── style.css # Basic styling
-├── requirements.txt
-├── README.md
-└── .gitignore
-
 ## ⚙️ How It Works
 1. User opens the web interface.
 2. User submits a folder path and selects an automation task.
@@ -52,3 +40,4 @@ pip install -r requirements.txt
 
 Run the application
 python app.py
+
